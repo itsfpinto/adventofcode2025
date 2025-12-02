@@ -1,6 +1,6 @@
 result = 0;
 
-with open("input", "r") as f:
+with open("/home/filipe/PycharmProjects/adventofcode/2/input", "r") as f:
     line = f.readline()
     for ids in line.strip().split(','):
         left, right = (int(x) for x in ids.split('-'))
