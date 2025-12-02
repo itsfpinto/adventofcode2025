@@ -1,7 +1,7 @@
 dir_list = []
 amount_list = []
 
-with open("adventofcode_day1_input", "r") as file:
+with open("input", "r") as file:
     for line in file:
         if line.strip():
             dir_list.append(line.strip()[0])
